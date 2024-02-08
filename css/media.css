@@ -1,0 +1,285 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /* header start  */
+
+    .navbar-brand img {
+        width: 220px !important;
+    }
+
+    .offcanvas-header {
+        background-color: #9C9A9B;
+    }
+
+    .offcanvas-body {
+        background-color: #9C9A9B;
+    }
+
+    .offcanvas-footer {
+        background-color: #9C9A9B;
+    }
+
+    .offcanvas-title p {
+        font-weight: 400;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .boxes .single-box {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #e6e6e6;
+        margin: 0 10px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../images/hamburger-menu-sm.png);
+    }
+
+    /* header end  */
+
+    /* banner start  */
+
+    .banner {
+        padding: 0;
+        background-image: url(../images/medium-hero.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        text-align: center;
+    }
+
+    .banner-wrapper {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner h1 {
+        font-size: 22px;
+        line-height: 35px !important;
+    }
+
+    /* banner end  */
+    /* about start  */
+
+    .about {
+        padding: 120px 0;
+        background-color: #353535;
+    }
+
+    .about p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    /* about end  */
+
+    /* item start  */
+
+    .graphic-text-box h2 {
+        font-size: 26px;
+    }
+
+    .graphic-text-box h4 {
+        font-size: 26px;
+    }
+
+    /* item end  */
+
+    /* Discover start  */
+
+    .discover {
+        background-color: #353535;
+    }
+
+    .discover h2 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .discover p {
+        color: #fff;
+    }
+
+    .single-discover-box {
+        width: 50px;
+        height: 50px;
+        background-color: #727272;
+        margin: 0 10px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .single-discover-box:hover {
+        background-color: #EFEFEF;
+    }
+
+    .single-discover-box.active {
+        background-color: #EFEFEF;
+    }
+
+    .secondary-btn a {
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid #EFEFEF;
+    }
+
+    /* Discover end  */
+
+    /* footer start  */
+
+    footer {
+        background-color: #9C9A9B;
+    }
+
+    footer h2 {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+        margin-top: 100px;
+    }
+
+    .gototop {
+        position: absolute;
+        bottom: 5%;
+        right: 3%;
+    }
+
+    .gototop img{
+        width: 50%;
+    }
+
+    /* footer end  */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    /* banner start  */
+
+    .banner {
+        background-image: url(../images/medium-hero.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        text-align: center;
+    }
+
+    .banner-wrapper {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner h1 {
+        font-size: 26px;
+        line-height: 35px !important;
+    }
+
+    /* banner end  */
+    /* about start  */
+
+    .about {
+        padding: 120px 0;
+        background-color: #353535;
+    }
+
+    .about p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    /* about end  */
+
+    /* footer start  */
+
+    footer {
+        background-color: #353535;
+    }
+
+    footer h2 {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+        margin-top: 100px;
+    }
+
+    .gototop {
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+    }
+
+    /* footer end  */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start  */
+
+
+    /* header end  */
+
+    /* banner start  */
+
+    .banner {
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    /* banner end  */
+
+    /* footer start  */
+
+    .gototop {
+        position: absolute;
+        bottom: 25%;
+        right: 5%;
+    }
+
+    /* footer end  */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner start  */
+
+    .banner {
+    }
+
+    .banner h1 {
+        font-size: 38px;
+    }
+
+    /* banner end  */
+
+    /* footer start  */
+
+    .gototop {
+        position: absolute;
+        bottom: 25%;
+        right: 5%;
+    }
+
+    /* footer end  */
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
